@@ -4,13 +4,13 @@
 
 inputs:
   MY_NAME:
-    # description: "Who to greet" 
+    # description: "Who to greet" #cosmetic
     required: true
     default: "World"
 
 runs:
   using: "docker"
-  image: "Dockerfile"
+  # image: "Dockerfile"
 
 branding:
   icon: "mic"
