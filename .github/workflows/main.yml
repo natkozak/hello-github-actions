@@ -26,8 +26,8 @@ jobs:
       - name: Hello world action step
         id: hello
         # uses: natkozak/hello-github-actions
-      # - uses: ./action-a #copied from above to see if I can keep the action.yml where it is
-      - uses: ./
+        # uses: ./action-a #copied from above to see if I can keep the action.yml where it is
+        uses: ./
         with:
           who-to-greet: 'Nat'
       # Use the output from the `hello` step
