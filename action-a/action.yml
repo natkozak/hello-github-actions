@@ -1,6 +1,6 @@
-name: "Hello Actions" #cosmetic
-description: "Greet someone" #cosmetic
-author: "octocat@github.com" #cosmetic
+# name: "Hello Actions" #cosmetic
+# description: "Greet someone" #cosmetic
+# author: "octocat@github.com" #cosmetic
 
 inputs:
   MY_NAME:
