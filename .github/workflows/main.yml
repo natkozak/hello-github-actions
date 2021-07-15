@@ -3,10 +3,10 @@ on: push
 
 jobs:
   build:
-    name: Hello world action
-    runs-on: ubuntu-latest
+    # name: Hello world action #test if cosmetic
+    # runs-on: ubuntu-latest #test if cosmetic
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v1 
       - uses: ./action-a
         with:
           MY_NAME: "Mona"
